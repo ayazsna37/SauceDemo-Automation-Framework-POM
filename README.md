@@ -20,13 +20,6 @@ This is an end-to-end **Selenium Automation Framework** built using the **Page O
 - **Data Provider:** Implemented TestNG @DataProvider for testing multiple user scenarios (Valid/Invalid login).
 - **Wait Strategies:** Used Explicit Waits and JavaScript Executor for handling dynamic elements.
 
-
-### 📂 Project Structure
-* `src/main/java/com/base`: Contains `BaseTest.java` for driver initialization.
-* `src/main/java/com/pages`: Contains Page classes (LoginPage, InventoryPage, CartPage).
-* `src/main/java/com/utils`: Contains Listeners and Utility classes.
-* `src/test/java/com/tests`: Contains the Test Class with all test scenarios.
-
 ### 🚀 How to Run
 1. Clone the repository:
    ```bash

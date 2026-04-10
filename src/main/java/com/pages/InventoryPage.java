@@ -13,7 +13,7 @@ public class InventoryPage {
 		this.driver = driver;
 	}
 
-	public void addFirstItem() {
+	public void addFourthItem() {
 		driver.findElement(addToCart).click();
 		System.out.println("Sauce Labs Fleece Jacket is selected");
 	}

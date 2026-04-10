@@ -9,7 +9,7 @@ import com.pages.LoginPage;
 public class SauceTestLogin extends BaseClass {
 	LoginPage loginPage;
 
-	@Test(priority = 1)
+	@Test
 	public void checkValidLogin() {
 		loginPage = new LoginPage(driver);
 		loginPage.loginWithUser("standard_user", "secret_sauce");

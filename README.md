@@ -3,15 +3,13 @@
 ### 🚨 Overview
 This is an end-to-end **Selenium Automation Framework** built using the **Page Object Model (POM)** design pattern. It automates the testing of the [SauceDemo](https://www.saucedemo.com/) e-commerce website.
 
-## 🛠 Tech Stack & Tools
-- **Language:** Java (Core & Advanced)
-- **Automation Tool:** Selenium WebDriver (Latest Version)
-- **Framework:** TestNG (Execution & Assertions)
-- **Build Tool:** Maven
-- **Design Pattern:** Page Object Model (POM)
-- **Data Management:**  Data-Driven Testing
+### 🛠 Tech Stack
+- **Language:** Java 
+- **Automation Tool:** Selenium WebDriver 
+- **Build Tool:** Maven 
+- **Test Framework:** TestNG 
 - **Reporting:** ScreenshotListener (TestNG ITestListener)
-- **IDE:** Eclipse
+- **Design Pattern:** Page Object Model (POM) 
 
 ### ✨ Key Features
 - **Hybrid Framework:** Combination of Data-Driven and Page Object Model.
@@ -19,6 +17,9 @@ This is an end-to-end **Selenium Automation Framework** built using the **Page O
 - **Config-Driven:** Environment-specific data (URL, Credentials) managed via `config.properties`.
 - **Data Provider:** Implemented TestNG @DataProvider for testing multiple user scenarios (Valid/Invalid login).
 - **Wait Strategies:** Used Explicit Waits and JavaScript Executor for handling dynamic elements.
+
+
+
 
 
 ## 🚀 How to Run the Project

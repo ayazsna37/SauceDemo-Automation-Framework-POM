@@ -20,11 +20,8 @@ This is an end-to-end **Selenium Automation Framework** built using the **Page O
 - **Data Provider:** Implemented TestNG @DataProvider for testing multiple user scenarios (Valid/Invalid login).
 - **Wait Strategies:** Used Explicit Waits and JavaScript Executor for handling dynamic elements.
 
-### 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/ayazsna37/SauceDemo-Automation-Framework-POM.git](https://github.com/ayazsna37/SauceDemo-Automation-Framework-POM.git)
-   ## 🚀 How to Run the Project
+
+## 🚀 How to Run the Project
 1. **Clone the repository:** `git clone https://github.com/ayazsna37/SauceDemo-Automation-Framework-POM.git`
 2. **Import in Eclipse:** Go to `File > Import > Existing Maven Projects` and select the project folder.
 3. **Update Maven:** Right-click on the project > `Maven > Update Project` (to download Selenium & TestNG).

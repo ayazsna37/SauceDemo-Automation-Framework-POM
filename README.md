@@ -14,11 +14,11 @@ This is an end-to-end **Selenium Automation Framework** built using the **Page O
 - **IDE:** Eclipse
 
 ### ✨ Key Features
-- **Hybrid Framework:** Combination of Data-Driven and Page Object Model[cite: 29].
+- **Hybrid Framework:** Combination of Data-Driven and Page Object Model.
 - **Dynamic Screenshot Capture:** Automatic screenshot generation for all failed test cases using a custom `ScreenshotListener`.
 - **Config-Driven:** Environment-specific data (URL, Credentials) managed via `config.properties`.
-- **Data Provider:** Implemented TestNG @DataProvider for testing multiple user scenarios (Valid/Invalid login)[cite: 31].
-- **Wait Strategies:** Used Explicit Waits and JavaScript Executor for handling dynamic elements[cite: 33].
+- **Data Provider:** Implemented TestNG @DataProvider for testing multiple user scenarios (Valid/Invalid login).
+- **Wait Strategies:** Used Explicit Waits and JavaScript Executor for handling dynamic elements.
 
 
 ### 📂 Project Structure

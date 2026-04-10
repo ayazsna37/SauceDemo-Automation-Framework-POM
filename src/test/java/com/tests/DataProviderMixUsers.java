@@ -20,7 +20,7 @@ public class DataProviderMixUsers extends BaseClass {
 		return new Object[][] { { "standard_user", "secret_sauce" }, { "locked_out_user", "wrong_pass" } };
 	}
 
-	@Test(dataProvider = "user")
+	@Test(dataProvider = "users")
 	public void dataProviderTest(String un, String pass) {
 		loginPage = new LoginPage(driver);
 		loginPage.loginWithUser(un, pass);

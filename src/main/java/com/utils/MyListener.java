@@ -18,7 +18,7 @@ public class MyListener implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		WebDriver driver = BaseClass.driver;
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File trgt = new File(System.getProperty("user.dir") + "/" + result.getName() + ".png");
+		File trgt = new File(System.getProperty("user.dir") + "/Screenshots/" + result.getName() + ".png");
 
 		try {
 			FileHandler.copy(src, trgt);

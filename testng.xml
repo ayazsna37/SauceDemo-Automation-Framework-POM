@@ -9,7 +9,6 @@
 			<class name="com.tests.SauceTestLogin" />
 			<class name="com.tests.SauceTestInvalidLogin" />
 			<class name="com.tests.DataProviderMixUsers" />
-			<class name="com.base.BaseClass" />
 		</classes>
 	</test> <!--
 	Test -->

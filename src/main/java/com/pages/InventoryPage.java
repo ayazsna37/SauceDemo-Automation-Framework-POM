@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class InventoryPage {
 	WebDriver driver;
-	By products = By.xpath("//div[@class='inventory_item_name ']");
+	By products = By.xpath("//div[@class='inventory_item_name']");
 	By addToCart = By.xpath("//button[@id='add-to-cart-sauce-labs-fleece-jacket']");
 	By cartIcon = By.xpath("//a[@class='shopping_cart_link']");
 

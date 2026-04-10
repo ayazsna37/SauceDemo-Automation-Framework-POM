@@ -7,16 +7,18 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 public class BaseClass {
 	public static WebDriver driver;
 	public static Properties prop;
-
+@BeforeMethod
 	public void initialization() throws IOException {
 		prop = new Properties();
 
 		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "src/test/resources/config.properties");
+				System.getProperty("user.dir") + "/src/test/resources/config.properties");
 		prop.load(fis);
 		String myBrowser = prop.getProperty("browser");
 		if (myBrowser.equalsIgnoreCase("Chrome")) {
@@ -29,7 +31,7 @@ public class BaseClass {
 			System.out.println("browser is not correct");
 
 	}
-
+@AfterMethod
 	public void tearDown() {
 		if (driver != null) {
 			driver.quit();

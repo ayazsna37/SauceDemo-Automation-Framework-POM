@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class CartPage {
 	WebDriver driver;
-	By cartItem = By.xpath("//div[@class='inventory_item_name']");
+	By cartItem = By.cssSelector(".inventory_item_name");
 
 	public CartPage(WebDriver driver) {
 		this.driver = driver;

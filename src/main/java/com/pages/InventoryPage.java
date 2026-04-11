@@ -5,9 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class InventoryPage {
 	WebDriver driver;
-	By products = By.xpath("//div[@class='inventory_item_name']");
-	By addToCart = By.xpath("//button[@id='add-to-cart-sauce-labs-fleece-jacket']");
-	By cartIcon = By.xpath("//a[@class='shopping_cart_link']");
+	By addToCart = By.id("add-to-cart-sauce-labs-fleece-jacket");
+	By cartIcon = By.className("shopping_cart_link");
 
 	public InventoryPage(WebDriver driver) {
 		this.driver = driver;
@@ -15,7 +14,6 @@ public class InventoryPage {
 
 	public void addFourthItem() {
 		driver.findElement(addToCart).click();
-		System.out.println("Sauce Labs Fleece Jacket is selected");
 	}
 
 	public void clickCart() {

@@ -24,6 +24,7 @@ public class DataProviderMixUsers extends BaseClass {
 	public void dataProviderTest(String un, String pass) {
 		loginPage = new LoginPage(driver);
 		loginPage.loginWithUser(un, pass);
+		
 		inventoryPage = new InventoryPage(driver);
 		inventoryPage.addFourthItem();
 		inventoryPage.clickCart();

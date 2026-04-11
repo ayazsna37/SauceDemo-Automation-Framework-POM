@@ -7,13 +7,15 @@ import com.base.BaseClass;
 import com.pages.LoginPage;
 
 public class SauceTestLogin extends BaseClass {
-	LoginPage loginPage;
+		LoginPage loginPage;
 
-	@Test
-	public void checkValidLogin() {
-		loginPage = new LoginPage(driver);
-		loginPage.loginWithUser("standard_user", "secret_sauce");
-		Assert.assertTrue(driver.getCurrentUrl().contains("inventory"), "Login failed!");
+		@Test
+		public void checkValidLogin() {
+			loginPage = new LoginPage(driver);
+			loginPage.loginWithUser("standard_user", "secret_sauce");
+			Assert.assertTrue(driver.getCurrentUrl().contains("inventory"), "Login failed!");
+		}
+
 	}
 
-}
+
